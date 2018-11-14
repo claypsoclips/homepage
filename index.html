@@ -564,14 +564,15 @@
 
                     <!-- Grid column -->
                     <div class="col-md-8 col-lg-9">
-                        <form name="contact" method="POST" data-netlify="true">
+                        <form name="contact" method="POST" data-netlify="true" netlify>
                             <!-- Grid row -->
                             <div class="row">
                                 <!-- Grid column -->
                                 <div class="col-md-6">
                                     <div class="md-form">
                                         <div class="md-form">
-                                            <label> Your name <input type="text"  name="name"></label>
+                                            <input type="text"  id="form41" class="form-control">
+                                            <label for="form41" class="">Your name</label>
                                         </div>
                                     </div>
                                 </div>
@@ -613,7 +614,7 @@
                             </div>
                             <!-- Grid row -->
                             <div class="text-center text-md-left mb-5 mt-4">
-                                <btn class="btn btn-rounded btn-white font-weight-bold" type="submit">Send</btn>
+                                <button type="submit" class="btn btn-rounded btn-white font-weight-bold" >Send</btn>
                             </div>
 
                         </form>
